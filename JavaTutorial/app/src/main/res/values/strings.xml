@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Day1</string>
+    <string-array name="calc_operation">
+        <item>Addition (x+y)</item>
+        <item>Subtraction (x-y)</item>
+        <item>Multiplication (x*y)</item>
+    </string-array>
+</resources>
