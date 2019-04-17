@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30dp"
+        android:text="Calculator"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="50dp"
+        android:text="Select Operation"
+        android:textStyle="bold"
+        android:textSize="@dimen/font1" />
+
+    <Spinner
+        android:id="@+id/sp_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="245dp"
+        android:layout_marginTop="@dimen/space1"
+        android:entries="@array/formula" />
+
+    <TextView
+        android:id="@+id/tv_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the value of a"
+        android:textSize="@dimen/font1"
+        android:layout_marginTop="@dimen/space1"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/et_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/tv_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the value of b"
+        android:textSize="@dimen/font1"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/et_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <Button
+        android:id="@+id/bt_calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/space1"
+        android:text="Calculate"
+        android:onClick="calculate"
+        android:padding="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_formula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Formula will be displayed here"
+        android:textSize="@dimen/font1"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/tv_output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Result will be displayed here"
+        android:textSize="@dimen/font1"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

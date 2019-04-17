@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="space1">25dp</dimen>
+    <dimen name="space2">10dp</dimen>
+    <dimen name="student_form1">140dp</dimen>
+    <dimen name="student_form2">160dp</dimen>
+    <dimen name="font1">22dp</dimen>
+</resources>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/student_form1">
+
+
+    <TextView
+        android:id="@+id/tv_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Form"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp"
+        android:textSize="28dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="@dimen/student_form1"/>
+
+    <EditText
+        android:id="@+id/et_DOB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Date of Birth"
+        android:layout_marginTop="@dimen/space1"
+        android:layout_marginLeft="@dimen/student_form1"/>
+
+    <TextView
+        android:id="@+id/tv_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/space1"
+        android:layout_marginLeft="@dimen/student_form1"/>
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rg_rb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/student_form2"
+            android:layout_marginTop="@dimen/space2"
+            android:layout_weight="1"
+            android:text="Male"
+            android:textSize="18dp" />
+
+        <RadioButton
+            android:id="@+id/rg_rb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/student_form2"
+            android:layout_weight="1"
+            android:text="Female"
+            android:textSize="18dp" />
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/tv_subjects"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space1"
+        android:text="Choose your subjects"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/student_form1"/>
+
+    <CheckBox
+        android:id="@+id/cb1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Maths"
+        android:textSize="18dp"
+        android:layout_marginTop="@dimen/space2"
+        android:layout_marginLeft="@dimen/student_form2"/>
+
+    <CheckBox
+        android:id="@+id/cb2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Physics"
+        android:textSize="18dp"
+        android:layout_marginLeft="@dimen/student_form2"/>
+
+    <CheckBox
+        android:id="@+id/cb3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chemistry"
+        android:textSize="18dp"
+        android:layout_marginLeft="@dimen/student_form2"/>
+
+    <CheckBox
+        android:id="@+id/cb4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Biology"
+        android:textSize="18dp"
+        android:layout_marginLeft="@dimen/student_form2"/>
+
+    <CheckBox
+        android:id="@+id/cb5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Computer Science"
+        android:textSize="18dp"
+        android:layout_marginLeft="@dimen/student_form2"/>
+
+    <Button
+        android:id="@+id/bt_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:background="#FFFFFF"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"/>
+
+    <Button
+        android:id="@+id/bt_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:background="#FFFFFF"
+        android:layout_marginTop="@dimen/space2"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="42dp"
+        android:paddingRight="42dp"/>
+
+</LinearLayout>
