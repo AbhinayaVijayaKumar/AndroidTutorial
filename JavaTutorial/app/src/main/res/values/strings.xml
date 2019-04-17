@@ -5,4 +5,14 @@
         <item>Subtraction (x-y)</item>
         <item>Multiplication (x*y)</item>
     </string-array>
+    <string-array name="formula">
+        <item>(a+b)^2</item>
+        <item>a^2+b^2</item>
+        <item>(a-b)^2</item>
+        <item>a^2-b^2</item>
+        <item>(a+b)^3</item>
+        <item>(a-b)^3</item>
+    </string-array>
 </resources>
+
+
