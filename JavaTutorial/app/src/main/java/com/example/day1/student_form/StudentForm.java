@@ -7,7 +7,6 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
-import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
@@ -18,7 +17,6 @@ public class StudentForm extends Activity implements View.OnClickListener, Compo
     EditText etName,etDOB;
     Button btSave, btCancel;
     CheckBox cb1,cb2,cb3,cb4,cb5;
-    RadioButton rbButton;
     RadioGroup rgGroup;
 
     @Override

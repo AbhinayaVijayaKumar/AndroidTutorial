@@ -13,6 +13,19 @@
         <item>(a+b)^3</item>
         <item>(a-b)^3</item>
     </string-array>
+    <string-array name="phone">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Mobile</item>
+    </string-array>
+    <string-array name="email">
+        <item>Personal</item>
+        <item>Work</item>
+    </string-array>
+    <string-array name="address">
+        <item>Home</item>
+        <item>Work</item>
+    </string-array>
 </resources>
 
 
